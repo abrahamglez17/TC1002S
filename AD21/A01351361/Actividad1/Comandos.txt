@@ -1,0 +1,19 @@
+
+//Nos dirigimos a la carpeta donde se va clonar
+cd .\workspace\HerramientasComputacionalesSTEC
+
+//Clonamos el repositorio
+git clone https://github.com/javiermao/TC1002S.git
+
+//Nos vamos a la carpeta AD21
+ cd .\TC1002S\AD21\
+
+//Creamos carpeta A01351361
+mkdir A01351361
+
+
+//Damos push al repositorio
+------------------------------------------
+git add -A
+git commit -m "A01351361"
+git push
